@@ -130,6 +130,7 @@ nav li button{
 }
 
 /* main styles */
+
 main{
     max-width: 1140px;
     margin: 0 auto;
@@ -146,12 +147,13 @@ main section{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    
    
 }
 
 .about-items{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .item-title{
@@ -175,4 +177,29 @@ main section{
     padding: 30px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.6);
     border-radius: 5px;
+}
+
+/* resume section styles */
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-sub-title{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-bottom: 20px;
+}
+
+.experience-description, .experience-sub-title{
+    color: #757575;
+}
+
+.resume hr{
+    margin: 30px 5px;
+}
+
+.resume-download-cv{
+    margin-top: 50px;
 }
