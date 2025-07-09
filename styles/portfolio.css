@@ -15,6 +15,10 @@
     color: rgba(71, 71, 71, 1);
 }
 
+.dark-3{
+    color: #757575;
+}
+
 .btn-primary{
     background-color: #FD6E0A;
     color: white;
@@ -22,14 +26,30 @@
     font-size: 20px;
     border: none;
     cursor: pointer;
+    border-radius: 5px;
+    padding: 18px 35px 19px 35px;
 }
 
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    font-size: 18px;
+    color: #757575;
+}
 /* header */
 
 .header{
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+}
+
+.secondary-bg{
+    background-color: #FFF8F3;
 }
 
 /* Nav Styles */
@@ -69,7 +89,7 @@ nav li button{
     padding: 18px 35px 19px 35px;
     width: 150px;
     height: 64px;
-    border-radius: 5px;
+    
 }
 
 /* Banner Styles */
@@ -99,4 +119,33 @@ nav li button{
 .banner-profile-pic{
     width: 584px;
     height: 676px;
+}
+
+/* main styles */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about styles */
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 20px;
+}
+
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
 }
